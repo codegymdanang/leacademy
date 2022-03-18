@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CodeKids - Lập trình cho trẻ </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="dạy lập trình cho trẻ tại Đà Nẵng, dạy học lập trình cho trẻ tại Đà Nẵng " name="keywords">
+    <meta content="dạy lập trình cho bé tại Đà Nẵng, dạy học lập trình cho bé tại Đà Nẵng  " name="description">
+
+    <!-- Favicon -->
+    <link href='{{"/images/favicon.ico" | prepend: site.baseurl}}' rel="icon">
+
+    <!-- Google Web Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link rel="stylesheet" href='{{ "/lib/flaticon/font/flaticon.css" | prepend: site.baseurl }}' >
+
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href='{{ "/lib/owlcarousel/assets/owl.carousel.min.css" | prepend: site.baseurl }}' >
+    <link rel="stylesheet" href='{{ "/lib/lightbox/css/lightbox.min.css" | prepend: site.baseurl }}' >
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}' >
+
+</head>
+
+<body>
+
+{% include header.html %}
+
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary-banner mb-5">
+        
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Class Start -->
+  
+    <div class="container-fluid pt-5">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-12 mb-5">
+                    <div class="card border-0 bg-light shadow-sm pb-2">
+                        <img class="card-img-top mb-2" src="{{'/images/lichkhaigiang.png' | prepend: site.baseurl }}" alt="">
+                       <a href="https://codekids.asia/register" class="btn btn-primary px-4 mx-auto mb-4">Đăng ký</a>
+                                           
+                    </div>
+                </div>
+                
+            </div>         
+
+        </div>
+    </div>
+    <!-- Class End -->
+
+
+
+    <!-- Registration Start -->
+    <div class="embed-responsive embed-responsive-16by9" style="height:1200px">
+
+        <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSemPcgbENd4FfmjvSeY01ZabMLvOslwBeDbNL5FkPt6LBFe2w/viewform?embedded=true" width="640" height="1866" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
+
+    </div>
+    <!-- Registration End -->
+<!-- Footer Start -->
+{% include footer.html %}
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src='{{"/lib/easing/easing.min.js"  | prepend: site.baseurl }}'></script>
+<script src='{{"/lib/owlcarousel/owl.carousel.min.js"  | prepend: site.baseurl }}'></script>
+<script src='{{"/lib/isotope/isotope.pkgd.min.js"  | prepend: site.baseurl }}'></script>
+<script src='{{"/lib/lightbox/js/lightbox.min.js"  | prepend: site.baseurl }}'></script>
+
+<!-- Contact Javascript File -->
+<script src='{{"/mail/jqBootstrapValidation.min.js"  | prepend: site.baseurl }}'></script>
+<script src='{{"/mail/contact.js"  | prepend: site.baseurl }}'></script>
+
+
+<!-- Template Javascript -->
+<script src='{{"/js/main.js"  | prepend: site.baseurl }}'></script>
+
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Your Plugin chat code -->
+<div class="fb-customerchat"
+     attribution="biz_inbox"
+     page_id="100850995484517">
+</div>
+
+</body>
+
+</html>
