@@ -6359,8 +6359,8 @@ a.close.disabled {
 .bg-primary-banner {
 
   background-image: url("../images/banner.jpg");
-  height: 600px;
-  width: 1400px;
+  height: 700px;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
